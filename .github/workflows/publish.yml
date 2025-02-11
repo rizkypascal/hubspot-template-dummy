@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: HubSpot Deploy Action
-        uses: HubSpot/hubspot-cms-deploy-action@v2
+        uses: HubSpot/hubspot-cms-deploy-action@v1
         with:
           src_dir: template-dummy
           dest_dir: template-dummy
